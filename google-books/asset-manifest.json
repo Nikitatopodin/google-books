@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Nikitatopodin.github.io/google-books/static/css/main.f58a5796.css",
-    "main.js": "/Nikitatopodin.github.io/google-books/static/js/main.f354d3ab.js",
-    "static/media/background.jpg": "/Nikitatopodin.github.io/google-books/static/media/background.9fcb9df6c921df10b71b.jpg",
-    "static/media/search.svg": "/Nikitatopodin.github.io/google-books/static/media/search.4bf695d42ec0dd2e2787.svg",
-    "index.html": "/Nikitatopodin.github.io/google-books/index.html",
-    "main.f58a5796.css.map": "/Nikitatopodin.github.io/google-books/static/css/main.f58a5796.css.map",
-    "main.f354d3ab.js.map": "/Nikitatopodin.github.io/google-books/static/js/main.f354d3ab.js.map"
+    "main.css": "/nikitatopodin.github.io/google-books/google-books/static/css/main.28e05333.css",
+    "main.js": "/nikitatopodin.github.io/google-books/google-books/static/js/main.f354d3ab.js",
+    "static/media/background.jpg": "/nikitatopodin.github.io/google-books/google-books/static/media/background.9fcb9df6c921df10b71b.jpg",
+    "static/media/search.svg": "/nikitatopodin.github.io/google-books/google-books/static/media/search.4bf695d42ec0dd2e2787.svg",
+    "index.html": "/nikitatopodin.github.io/google-books/google-books/index.html",
+    "main.28e05333.css.map": "/nikitatopodin.github.io/google-books/google-books/static/css/main.28e05333.css.map",
+    "main.f354d3ab.js.map": "/nikitatopodin.github.io/google-books/google-books/static/js/main.f354d3ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.f58a5796.css",
+    "static/css/main.28e05333.css",
     "static/js/main.f354d3ab.js"
   ]
 }
