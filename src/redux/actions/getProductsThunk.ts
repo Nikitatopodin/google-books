@@ -7,7 +7,6 @@ import { store } from "../store";
 type DispatchType = typeof store.dispatch;
 
 const getProductsThunk = (options: SearchType) => async (dispatch: DispatchType) => {
-	console.log(options);
 	try {
 		const data = await getProducts(options);
 		dispatch(setBooks(data));

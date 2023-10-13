@@ -10,11 +10,9 @@ function getApiRoot(options: string) {
 async function getProducts(options: SearchType) {
 	const category = options.options.category === 'all' ? '' : `+subject:${options.options.category}`;
 	const URL = getApiRoot(`?q=${options.options.query}${category}&startIndex=${options.options.page * 30 - 30}&maxResults=30&orderBy=${options.options.sort}`)
-	console.log(URL)
 	try {
 		const res = await fetch(URL);
 		const data = await res.json();
-		console.log(data);
 		return data;
 	} catch(e) {
 		console.error(e);
