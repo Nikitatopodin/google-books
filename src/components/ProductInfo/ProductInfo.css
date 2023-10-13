@@ -1,0 +1,41 @@
+.catalog__list__item {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(240, 240, 240);
+	flex: 1 1 auto;
+	width: 170px;
+	transition: all 0.2s;
+}
+
+.list__item__img {
+	width: 120px;
+	height: 180px;
+	margin: 20px auto;
+	box-shadow: 5px 7px 15px 1px black;
+}
+
+.list__item__category,
+.list__item__authors {
+	color: rgb(170, 171, 171);
+}
+
+.list__item__category {
+	text-decoration: underline
+}
+
+.list__item__title {
+	margin-top: 10px;
+	font-weight: 700;
+}
+
+.list__item__authors {
+	margin-top: 5px;
+}
+
+@media (hover:hover) {
+	.catalog__list__item:hover {
+		cursor: pointer;
+		box-shadow: 1px 2px 3px 1px black;
+	}
+}
