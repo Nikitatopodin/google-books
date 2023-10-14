@@ -50,9 +50,10 @@
 }
 
 .sort-filters__container {
+	margin-top: 10px;
 	display: flex;
 	justify-content: space-between;
-	width: 30.7vw;
+	width: 31vw;
 }
 
 .sort-select,
@@ -82,7 +83,28 @@
 		font-size: 1.5rem;
 	}
 
+	.search-input {
+		width: 50vw;
+	}
+
 	.sort-filters__container {
 		flex-wrap: wrap;
+	}
+
+	.sort-filters__container {
+		display: flex;
+		justify-content: space-between;
+		width: 50.7vw;
+	}
+
+	.sort-select,
+	.filter-select {
+		width: 50vw;
+	}
+}
+
+@media (max-width:600px) {
+	.search-input {
+		width: 60vw;
 	}
 }
