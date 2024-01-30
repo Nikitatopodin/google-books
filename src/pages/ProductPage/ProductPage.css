@@ -1,10 +1,10 @@
 .product {
+	height: 100%;
 	display: flex;
-	background-color: rgb(240, 240, 240);
-	height: calc(100vh - 300px);
 }
 
 .product-image__container {
+	background-color: rgb(240, 240, 240);
 	padding: 2vw;
 	display: flex;
 	flex-direction: column;
@@ -22,7 +22,6 @@
 }
 
 .product__info {
-	background-color: white;
 	padding: 2vw;
 	flex: 1 1 50%;
 	overflow: auto;

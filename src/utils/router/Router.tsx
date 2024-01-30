@@ -6,10 +6,10 @@ import { getProductById } from "../../services/ApiRequests";
 
 function Layout() {
   return (
-			<>
-      	<SearchArea />
-      	<Outlet />
-			</>
+    <>
+      <SearchArea />
+      <Outlet />
+    </>
   );
 }
 
